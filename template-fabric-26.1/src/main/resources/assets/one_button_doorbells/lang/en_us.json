@@ -1,4 +1,5 @@
 {
+	"registry.CreativeTab.CreativeTab.OBD": "One Button Doorbells",
 	"block.one_button_doorbells.pigstep_button": "Pigstep Button",
 	"lore.one_button_doorbells.pigstep_button": "Button that plays Pigstep when pressed",
 	"block.one_button_doorbells.cat_button": "Cat Button",
