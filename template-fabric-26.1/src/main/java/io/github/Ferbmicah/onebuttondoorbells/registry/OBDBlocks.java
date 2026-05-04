@@ -20,12 +20,12 @@ import static net.minecraft.world.level.block.Blocks.buttonProperties;
 
 public class OBDBlocks {
 
-	public static JukeButton CAT_BUTTON = register("cat_button", (p) -> new JukeButton(BlockSetType.OAK, 3560,p, SoundEvents.MUSIC_DISC_CAT.value()), buttonProperties(), true);
+	public static JukeButton CAT_BUTTON = register("cat_button", (p) -> new JukeButton(BlockSetType.STONE, 3560,p, SoundEvents.MUSIC_DISC_CAT.value()), buttonProperties(), true);
 
-	public static JukeButton LAVA_CHICKEN_BUTTON = register("lava_chicken_button", (p) -> new JukeButton(BlockSetType.OAK, 2700,p, SoundEvents.MUSIC_DISC_LAVA_CHICKEN.value()), buttonProperties(), true);
+	public static JukeButton LAVA_CHICKEN_BUTTON = register("lava_chicken_button", (p) -> new JukeButton(BlockSetType.STONE, 2700,p, SoundEvents.MUSIC_DISC_LAVA_CHICKEN.value()), buttonProperties(), true);
 
 
-	public static JukeButton PIGSTEP_BUTTON = register("pigstep_button", (p) -> new JukeButton(BlockSetType.OAK, 2960,p, SoundEvents.MUSIC_DISC_PIGSTEP.value()), buttonProperties(), true);
+	public static JukeButton PIGSTEP_BUTTON = register("pigstep_button", (p) -> new JukeButton(BlockSetType.STONE, 2960,p, SoundEvents.MUSIC_DISC_PIGSTEP.value()), buttonProperties(), true);
 
 
 	private static JukeButton register(String name, Function<BlockBehaviour.Properties, Block> blockFactory, BlockBehaviour.Properties settings, boolean shouldRegisterItem) {
