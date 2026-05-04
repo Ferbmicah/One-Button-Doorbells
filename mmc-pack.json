@@ -1,0 +1,1 @@
+{"formatVersion": 1, "components": [{"important": true, "uid": "net.minecraft", "version": "26.1.2"}, {"cachedName": "unsup", "cachedVersion": "1.2.0", "uid": "com.unascribed.unsup"}, {"uid": "net.fabricmc.fabric-loader", "version": "0.19.2"}]}
