@@ -12,6 +12,7 @@ import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
 
 import static io.github.Ferbmicah.onebuttondoorbells.registry.OBDBlocks.CAT_BUTTON;
+import static io.github.Ferbmicah.onebuttondoorbells.registry.OBDBlocks.LAVA_CHICKEN_BUTTON;
 import static io.github.Ferbmicah.onebuttondoorbells.registry.OBDBlocks.PIGSTEP_BUTTON;
 
 public class CreativeTab {
@@ -21,10 +22,11 @@ public class CreativeTab {
 	);
 	public static final CreativeModeTab CUSTOM_CREATIVE_TAB = FabricCreativeModeTab.builder()
 		.icon(() -> new ItemStack(CAT_BUTTON))
-		.title(Component.translatable("CreativeTab.OBD"))
+		.title(Component.translatable("One Button Doorbells"))
 		.displayItems((params, output) -> {
 			output.accept(PIGSTEP_BUTTON);
 			output.accept(CAT_BUTTON);
+			output.accept(LAVA_CHICKEN_BUTTON);
 
 		})
 		.build();

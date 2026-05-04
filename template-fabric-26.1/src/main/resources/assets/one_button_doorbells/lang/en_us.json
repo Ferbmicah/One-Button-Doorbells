@@ -1,7 +1,8 @@
 {
-	"registry.CreativeTab.CreativeTab.OBD": "One Button Doorbells",
 	"block.one_button_doorbells.pigstep_button": "Pigstep Button",
 	"lore.one_button_doorbells.pigstep_button": "Button that plays Pigstep when pressed",
+	"block.one_button_doorbells.lava_chicken_button": "Lava Chicken Button",
+	"lore.one_button_doorbells.lava_chicken_button": "Button that plays Lava Chicken when pressed",
 	"block.one_button_doorbells.cat_button": "Cat Button",
 	"lore.one_button_doorbells.cat_button": "Button that plays Cat when pressed"
 }

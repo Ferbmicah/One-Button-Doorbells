@@ -7,12 +7,10 @@ import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.Identifier;
 import net.minecraft.resources.ResourceKey;
-import net.minecraft.sounds.SoundEvent;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.ButtonBlock;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.properties.BlockSetType;
 
@@ -22,9 +20,13 @@ import static net.minecraft.world.level.block.Blocks.buttonProperties;
 
 public class OBDBlocks {
 
-	public static JukeButton PIGSTEP_BUTTON = register("pigstep_button", (p) -> new JukeButton(BlockSetType.OAK, 30,p, SoundEvents.MUSIC_DISC_PIGSTEP.value()), buttonProperties(), true);
+	public static JukeButton CAT_BUTTON = register("cat_button", (p) -> new JukeButton(BlockSetType.OAK, 3560,p, SoundEvents.MUSIC_DISC_CAT.value()), buttonProperties(), true);
 
-	public static JukeButton CAT_BUTTON = register("cat_button", (p) -> new JukeButton(BlockSetType.OAK, 30,p, SoundEvents.MUSIC_DISC_CAT.value()), buttonProperties(), true);
+	public static JukeButton LAVA_CHICKEN_BUTTON = register("lava_chicken_button", (p) -> new JukeButton(BlockSetType.OAK, 2700,p, SoundEvents.MUSIC_DISC_LAVA_CHICKEN.value()), buttonProperties(), true);
+
+
+	public static JukeButton PIGSTEP_BUTTON = register("pigstep_button", (p) -> new JukeButton(BlockSetType.OAK, 2960,p, SoundEvents.MUSIC_DISC_PIGSTEP.value()), buttonProperties(), true);
+
 
 	private static JukeButton register(String name, Function<BlockBehaviour.Properties, Block> blockFactory, BlockBehaviour.Properties settings, boolean shouldRegisterItem) {
 		// Create a registry key for the block
