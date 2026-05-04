@@ -22,7 +22,9 @@ import static net.minecraft.world.level.block.Blocks.buttonProperties;
 
 public class OBDBlocks {
 
-	public static JukeButton JUKEBOX_BUTTON = register("jukebox_button", (p) -> new JukeButton(BlockSetType.OAK, 30,p, SoundEvents.MUSIC_DISC_PIGSTEP.value()), buttonProperties(), true);
+	public static JukeButton PIGSTEP_BUTTON = register("pigstep_button", (p) -> new JukeButton(BlockSetType.OAK, 30,p, SoundEvents.MUSIC_DISC_PIGSTEP.value()), buttonProperties(), true);
+
+	public static JukeButton CAT_BUTTON = register("cat_button", (p) -> new JukeButton(BlockSetType.OAK, 30,p, SoundEvents.MUSIC_DISC_CAT.value()), buttonProperties(), true);
 
 	private static JukeButton register(String name, Function<BlockBehaviour.Properties, Block> blockFactory, BlockBehaviour.Properties settings, boolean shouldRegisterItem) {
 		// Create a registry key for the block

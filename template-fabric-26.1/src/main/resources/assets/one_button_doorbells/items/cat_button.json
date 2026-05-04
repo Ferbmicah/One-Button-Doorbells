@@ -1,0 +1,6 @@
+{
+	"model": {
+		"type": "minecraft:model",
+		"model": "one_button_doorbells:block/pigstep_button_inventory"
+	}
+}
