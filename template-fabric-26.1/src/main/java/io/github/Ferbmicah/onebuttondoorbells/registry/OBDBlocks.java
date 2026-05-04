@@ -7,6 +7,8 @@ import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.Identifier;
 import net.minecraft.resources.ResourceKey;
+import net.minecraft.sounds.SoundEvent;
+import net.minecraft.sounds.SoundEvents;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
@@ -20,7 +22,7 @@ import static net.minecraft.world.level.block.Blocks.buttonProperties;
 
 public class OBDBlocks {
 
-	public static JukeButton JUKEBOX_BUTTON = register("jukebox_button", (p) -> new JukeButton(BlockSetType.OAK, 30,p), buttonProperties(), true);
+	public static JukeButton JUKEBOX_BUTTON = register("jukebox_button", (p) -> new JukeButton(BlockSetType.OAK, 30,p, SoundEvents.MUSIC_DISC_PIGSTEP.value()), buttonProperties(), true);
 
 	private static JukeButton register(String name, Function<BlockBehaviour.Properties, Block> blockFactory, BlockBehaviour.Properties settings, boolean shouldRegisterItem) {
 		// Create a registry key for the block
