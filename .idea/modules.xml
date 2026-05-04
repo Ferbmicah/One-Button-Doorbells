@@ -3,8 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/One Button Doorbells.iml" filepath="$PROJECT_DIR$/.idea/One Button Doorbells.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mod-id.main.iml" filepath="$PROJECT_DIR$/.idea/modules/mod-id.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mod-id.test.iml" filepath="$PROJECT_DIR$/.idea/modules/mod-id.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/one-button-doorbells.main.iml" filepath="$PROJECT_DIR$/.idea/modules/one-button-doorbells.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/one-button-doorbells.test.iml" filepath="$PROJECT_DIR$/.idea/modules/one-button-doorbells.test.iml" />
     </modules>
   </component>
 </project>

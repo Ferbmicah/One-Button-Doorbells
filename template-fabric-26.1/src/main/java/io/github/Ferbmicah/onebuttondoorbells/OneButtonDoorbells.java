@@ -1,5 +1,6 @@
 package io.github.Ferbmicah.onebuttondoorbells;
 
+import io.github.Ferbmicah.onebuttondoorbells.registry.OBDBlocks;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -11,5 +12,7 @@ public class OneButtonDoorbells implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		LOGGER.info("[One Button Doorbells] pretty pink princess ponies prancing perpendicular");
+		//register the blocks
+		OBDBlocks.init();
 	}
 }
